@@ -1,0 +1,12 @@
+{application, record2ei,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { record2ei_app, []}},
+  {env, []}
+ ]}.
